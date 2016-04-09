@@ -14,9 +14,9 @@ Therefore, you will need a working version of Python.
 We highly recommend you use version 2.7, but version 3.x will work as well.  
 
 You will be using two third-party librairies to build the scrapers:
-* `requests` :  used to perform HTTP requests and easily handle the responses.  
+* `requests` :  used to perform HTTP requests and easily handle the responses. [Documentation](http://docs.python-requests.org/en/master/user/quickstart/#make-a-request)  
 
-* `lxml` : used to parse HTML code.  
+* `lxml` : used to parse HTML code. [Documentation](http://lxml.de/api.html)  
 
 After installing Python, a tool called `pip` will be installed as well and will be used to install these librairies.  
 However, you might need to modify your PATH environment variable and add the folder where `pip` is installed.  
