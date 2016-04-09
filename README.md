@@ -27,6 +27,7 @@ However, you might need to modify your PATH environment variable and add the fol
 * `Linux`: `/usr/lib/python2.7/Scripts`
 
 Once that is done, run both of these commands to download the librairies:  
+
     pip install requests  
 
     pip install lxml  
