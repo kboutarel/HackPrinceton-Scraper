@@ -69,7 +69,7 @@ For example, a submission should look like this:
         "Winner": true
     }
 
-[Hints](#Questions)
+[Hints for those who are stuck](#hints)
 
 ### Questions
 You will be given the file `participants.json` which contains every registered participant of the hackathon.  
@@ -115,6 +115,21 @@ Using the provided `participants.json` and your own `submissions.json`, answer t
     (participant_name, participant_projects, participant_followers)  
 
 * `Question 5` : For the authors of the submissions whose name starts with 'M', print the tuple (submission_name, list of distinct skills, list of similar skills)  
+
+
+#### Hints
+* Remember that `lxml.etree.find(xpath)` finds only the first element that matches while `lxml.etree.findall(xpath)` finds all possible elements that match.  
+
+* [This table might come in very handy when using lxml](https://docs.python.org/2/library/xml.etree.elementtree.html#supported-xpath-syntax)  
+
+* Having some trouble finding the number of submission pages? How could the `pagination` at the bottom of the submissions page help us?  
+
+* Read all the comments to figure out how to find `submission_element`  
+
+* The following xpath will be useful when creating your submission:  
+  1. `Tagline` : `.//p[@class="small tagline"]`  
+  2. `Authors` : `.//span[@class='user-profile-link']/img`  
+  3. `Winner` : `.//aside[@class="entry-badge"]`  
 
 
 ## Part 2: Participants
