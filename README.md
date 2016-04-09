@@ -18,7 +18,10 @@ You will be using two third-party librairies to build the scrapers:
 
 * `lxml` : used to parse HTML code. [Documentation](http://lxml.de/api.html)  
 
-After installing Python, a tool called `pip` will be installed as well and will be used to install these librairies.  
+And one Python library:
+* `json` : used to create and parse JSON files. [Documentation](https://docs.python.org/2/library/json.html)  
+
+After installing Python, a tool called `pip` will be installed as well and will be used to install the third-party librairies.  
 However, you might need to modify your PATH environment variable and add the folder where `pip` is installed.  
 * `Windows`: `C:\Python27\Scripts`
 
