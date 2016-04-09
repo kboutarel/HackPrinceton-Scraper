@@ -17,3 +17,23 @@ You will be using two third-party librairies to build the scrapers:
 * `requests` :  used to perform HTTP requests and easily handle the responses.  
 
 * `lxml` : used to parse HTML code.  
+
+After installing Python, a tool called `pip` will be installed as well and will be used to install these librairies.  
+However, you might need to modify your PATH environment variable and add the folder where `pip` is installed.  
+* `Windows`: `C:\Python27\Scripts`
+
+* `Mac OS X`: `/Library/Frameworks/Python.framework/Versions/2.7/bin`
+
+* `Linux`: `/usr/lib/python2.7/Scripts`
+
+Once that is done, run both of these commands to download the librairies:  
+    pip install requests  
+
+    pip install lxml  
+
+Note: You might need to be in Administrator mode for Windows, or use `sudo` for the rest  
+
+At this point, you have all the tools necessary to start the assignment! YAY!  
+
+
+## Part 1: Submissions
