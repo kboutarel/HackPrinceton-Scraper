@@ -69,6 +69,8 @@ For example, a submission should look like this:
         "Winner": true
     }
 
+[Hints](#Questions)
+
 ### Questions
 You will be given the file `participants.json` which contains every registered participant of the hackathon.  
 The file is a dictionary of dictionaries, where the key is the devpost id of the participant and the value is information about the participant. The dictionary contains the following keys:  
