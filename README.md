@@ -95,3 +95,21 @@ For example, a participant should look like this:
         "Other"
       ]
     }
+
+Using `participants.json` and `submissions.json`, answer the following questions:  
+* `Question 1` : For each participant with names starting in 'D', 'G', and 'M', print the tuple: (participant_name, participant_portfolio)  
+
+* `Question 2` : For each participant that has at least 12 followers, print the tuple (participant_name, participant_projects, participant_followers)  
+
+* `Question 3` : For each participant that has 'web' and 'python' skills, print the tuple (participant_name, list of Titles)  
+
+* `Question 4` : For each winning submission, print  
+	submission_name  
+	submission_tagline  
+	(participant_name, participant_projects, participant_followers)  
+
+* `Question 5` : For the authors of the submissions whose name starts with 'M', print the tuple (submission_name, list of distinct skills, list of similar skills)  
+
+
+## Part 2: Participants
+Stay tuned for next week! :)
