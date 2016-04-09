@@ -1,6 +1,6 @@
 # HackPrinceton-Scraper
 -----------------------
-Scraper for the HackPrinceton website
+Scraper for the HackPrinceton website brought to you by the Open Source at Princeton club!
 
 
 The goal of this assignment is to build a Python scraper for the HackPrinceton 2016 website.  
