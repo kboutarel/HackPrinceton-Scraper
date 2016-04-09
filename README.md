@@ -96,7 +96,7 @@ For example, a participant should look like this:
       ]
     }
 
-Using the provided `participants.json` and your own `submissions.json`, answer the following questions:  
+Using the provided `participants.json` and your own `submissions.json`, answer the following questions in the file `questions.py`:  
 * `Question 1` : For each participant with names starting in 'D', 'G', and 'M', print the tuple: (participant_name, participant_portfolio)  
 
 * `Question 2` : For each participant that has at least 12 followers, print the tuple (participant_name, participant_projects, participant_followers)  
