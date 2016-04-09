@@ -32,9 +32,35 @@ Once that is done, run both of these commands to download the librairies:
 
     pip install lxml  
 
-Note: You might need to be in Administrator mode for Windows, or use `sudo` for the rest  
+Note: You might need to be in Administrator mode for Windows, or use `sudo` for the others. 
 
 At this point, you have all the tools necessary to start the assignment! YAY!  
 
 
-## Part 1: Submissions
+## Part 1: Submissions  
+For the first part of the assignment, you will need to complete the code in the file `submissions.py`.  
+We give you a skeleton code to help you get started but you may start from scratch if you prefer.  
+Your goal is to create a JSON file named `submission.json` which will contain a list of dictionaries.  
+Each dictionary should have the following keys:  
+* `Authors` : devpost ids of authors of the submission  
+
+* `Name` : name of the submission  
+
+* `Tagline` : small description of submission  
+
+* `URL` : url of submission  
+
+* `Winner` : whether the submission won or not
+
+For example, the first submission should look like this:  
+
+    {
+        "Authors": [
+          "yarabarla", 
+          "cyrusroshan"
+        ], 
+        "Name": "Spin to Win", 
+        "Tagline": "a 3d arduino-based scanner for under $20", 
+        "URL": "http://devpost.com/software/spin-to-win", 
+        "Winner": true
+    }
