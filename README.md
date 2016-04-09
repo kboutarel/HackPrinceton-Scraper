@@ -38,10 +38,11 @@ At this point, you have all the tools necessary to start the assignment! YAY!
 
 
 ## Part 1: Submissions  
+### Scraper
 For the first part of the assignment, you will need to complete the code in the file `submissions.py`.  
 We give you a skeleton code to help you get started but you may start from scratch if you prefer.  
-Your goal is to create a JSON file named `submission.json` which will contain a list of dictionaries.  
-Each dictionary should have the following keys:  
+Your goal is to create a JSON file named `submissions.json` which will contain all of the submissions as a list of dictionaries.    
+Each dictionary will represent a submission and should have the following keys:  
 * `Authors` : devpost ids of authors of the submission  
 
 * `Name` : name of the submission  
@@ -52,7 +53,7 @@ Each dictionary should have the following keys:
 
 * `Winner` : whether the submission won or not
 
-For example, the first submission should look like this:  
+For example, a submission should look like this:  
 
     {
         "Authors": [
@@ -63,4 +64,34 @@ For example, the first submission should look like this:
         "Tagline": "a 3d arduino-based scanner for under $20", 
         "URL": "http://devpost.com/software/spin-to-win", 
         "Winner": true
+    }
+
+### Questions
+You will be given the file `participants.json` which contains every registered participant of the hackathon.  
+The file is a dictionary of dictionaries, where the key is the devpost id of the participant and the value is information about the participant. The dictionary contains the following keys:  
+* `Name` : name of the participant
+
+* `Projects` : number of projects    
+
+* `Followers` : number of followers    
+
+* `Skills` : list of skills    
+
+* `Titles` : list of titles  
+
+* `Portfolio` : url of participant  
+
+For example, a participant should look like this:
+
+    "15tungalbert": {
+      "Followers": 1, 
+      "Name": "Albert Tung", 
+      "Portfolio": "http://devpost.com/15tungalbert", 
+      "Projects": 4, 
+      "Skills": [
+        "ruby-on-rails"
+      ], 
+      "Titles": [
+        "Other"
+      ]
     }
